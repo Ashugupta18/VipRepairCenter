@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_otp1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.vip.android.viptechnician.util.MonteserattEditText
+        android:id="@+id/edit_otp"
+        android:layout_weight="7"
+        android:textSize="14dp"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:background="@drawable/black_border"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <com.vip.android.viptechnician.util.MonserattTextview
+        android:id="@+id/text_submit_otp"
+        android:layout_weight="3"
+        android:text="Submit"
+        android:textSize="14dp"
+        android:background="@drawable/light_blue_gradient"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0.0px"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    app:cardBackgroundColor="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp">
+
+    <com.vip.android.viptechnician.util.MonserattTextViewRegular
+        android:id="@+id/category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repairing"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:paddingTop="44dp"
+        android:paddingBottom="44dp"
+        />
+</androidx.cardview.widget.CardView>

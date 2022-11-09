@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-826669485/viprepaircenter.iml" filepath="$PROJECT_DIR$/.idea/modules/-826669485/viprepaircenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viprepaircenter.app.iml" filepath="$PROJECT_DIR$/.idea/modules/viprepaircenter.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viprepaircenter.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/viprepaircenter.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viprepaircenter.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/viprepaircenter.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viprepaircenter.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/viprepaircenter.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

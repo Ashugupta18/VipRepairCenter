@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <com.vip.android.viptechnician.util.MonserattTextViewRegular
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Barcode"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/hintblue"
+        android:padding="14dp"
+        />
+
+    <!--<com.prolifiquetech.android.actofitsocial.util.ProximaNovaRegularTextView
+        android:id="@+id/dialog_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="do you wish to decline connection"
+        android:textSize="18sp"
+        android:textColor="@color/sociallightblack"
+        android:padding="16dp"
+        />-->
+
+    <!--<View
+        android:layout_width="wrap_content"
+        android:layout_height="0.7dp"
+        android:background="@color/socialgrey"
+        />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.vip.android.viptechnician.util.MonserattTextview
+            android:id="@+id/negative_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Reject"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:padding="25dp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/hintblue"
+            />
+
+
+        <com.vip.android.viptechnician.util.MonserattTextview
+            android:id="@+id/positive_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Accept"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:padding="25dp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    >
+
+    <com.vip.android.viptechnician.util.AutofitTextView
+        android:id="@+id/ticket_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="Ticket No."
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:gravity="center"
+        />
+
+    <com.vip.android.viptechnician.util.AutofitTextView
+        android:id="@+id/cp_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="CP Name"
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:gravity="center"
+        />
+
+    <com.vip.android.viptechnician.util.AutofitTextView
+        android:id="@+id/issue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="Issue"
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:gravity="center"
+        />
+
+    <com.vip.android.viptechnician.util.AutofitTextView
+        android:id="@+id/payment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="Payment"
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:gravity="center"
+        />
+
+    <com.vip.android.viptechnician.util.AutofitTextView
+        android:id="@+id/amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="Amount"
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:gravity="center"
+        />
+
+    <com.vip.android.viptechnician.util.AutofitTextView
+        android:id="@+id/ticket_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="Status"
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

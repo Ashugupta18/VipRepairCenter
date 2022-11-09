@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "233420047447",
+    "project_id": "vip-pos-master-e4a23",
+    "storage_bucket": "vip-pos-master-e4a23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233420047447:android:4a6a94cb55574a97cc4f12",
+        "android_client_info": {
+          "package_name": "com.vip.android.viptechnician"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233420047447-234179fqd2t53kcn13u0qitquk1s5kc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIdkl4U9liy0sRGq-0afSAczzF0SQPqnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233420047447-234179fqd2t53kcn13u0qitquk1s5kc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233420047447:android:b167624e46941672cc4f12",
+        "android_client_info": {
+          "package_name": "com.vipbags.android.vipcollectionpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233420047447-234179fqd2t53kcn13u0qitquk1s5kc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIdkl4U9liy0sRGq-0afSAczzF0SQPqnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233420047447-234179fqd2t53kcn13u0qitquk1s5kc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233420047447:android:6a8baae6535357b2cc4f12",
+        "android_client_info": {
+          "package_name": "com.vipbags.android.vipcollectionpointapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233420047447-234179fqd2t53kcn13u0qitquk1s5kc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIdkl4U9liy0sRGq-0afSAczzF0SQPqnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233420047447-234179fqd2t53kcn13u0qitquk1s5kc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

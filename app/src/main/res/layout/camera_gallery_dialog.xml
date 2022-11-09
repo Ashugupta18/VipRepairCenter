@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_round_translucent_rect"
+    android:orientation="horizontal"
+    >
+
+
+
+        <com.vip.android.viptechnician.util.MonserattTextview
+            android:id="@+id/upload_from_camera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Scan using camera"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:padding="16dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_camera_attachment"
+            android:drawablePadding="12dp"
+
+            />
+
+        <com.vip.android.viptechnician.util.MonserattTextview
+            android:id="@+id/upload_from_gallery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Upload from gallery"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:padding="16dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_gallery_attachment"
+            android:drawablePadding="12dp"
+            />
+
+</LinearLayout>
+

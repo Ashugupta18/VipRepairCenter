@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/reports_root_lay"
+    >
+
+    <LinearLayout
+        android:id="@+id/listview_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#b3bad0"
+        >
+
+        <com.vip.android.viptechnician.util.AutofitTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Ticket No."
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+
+            android:gravity="center"
+            />
+
+        <com.vip.android.viptechnician.util.AutofitTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="CP Name"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+
+            android:gravity="center"
+            />
+
+        <com.vip.android.viptechnician.util.AutofitTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Issue"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+
+            android:gravity="center"
+            />
+
+        <com.vip.android.viptechnician.util.AutofitTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Payment"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+
+            android:gravity="center"
+            />
+
+        <com.vip.android.viptechnician.util.AutofitTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Amount"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+
+            android:gravity="center"
+            />
+
+        <com.vip.android.viptechnician.util.AutofitTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Status"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/reports_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/hintblue"
+        android:dividerHeight="0.8dp"
+        />
+
+</LinearLayout>

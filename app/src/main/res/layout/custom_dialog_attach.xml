@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear_gallery"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@drawable/gallery2"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:text="Gallery"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_camera"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@drawable/photo_camera1"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:text="Camera"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_attach"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_margin="16dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp" />
+
+    <RelativeLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_remove"
+            android:text="Cancel"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/red_gradient"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_ok_attach"
+            android:text="Attach"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/green_gradient"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

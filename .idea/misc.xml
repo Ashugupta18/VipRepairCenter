@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WorkingVIPProjects/viprepaircenter/app/src/main/res/layout/accept_reject_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkingVIPProjects/viprepaircenter/app/src/main/res/layout/activity_ticket_details.xml" value="0.16354166666666667" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/accept_reject_dialog.xml" value="0.2" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_attendance.xml" value="0.24682971014492755" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_categories.xml" value="0.24682971014492755" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_cplist.xml" value="0.10833333333333334" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_main.xml" value="0.24682971014492755" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_notification.xml" value="0.1375" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_plannar.xml" value="0.24682971014492755" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_reports.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/activity_ticket_list.xml" value="0.24682971014492755" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/cal_item.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/camera_gallery_dialog.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/category_single_row.xml" value="0.24682971014492755" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/content_notification.xml" value="0.1375" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/cp_list_single_row.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/custom_dialog_attach.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/custom_dialog_otp.xml" value="0.24682971014492755" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/custom_dialog_password.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/fragment_first.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/fragment_second.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/full_screen_image_popup.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/reports_single_row.xml" value="0.21739130434782608" />
+        <entry key="..\:/viprepaircenter/app/src/main/res/layout/spares_selection_dialog.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
